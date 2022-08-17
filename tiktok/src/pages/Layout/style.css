@@ -1,0 +1,18 @@
+.MainFlex{
+    display: flex;
+    align-items: center;
+
+
+    max-width: 1150px;
+    margin: 30px auto;
+
+    gap: 30px;
+}
+
+.suggestion{
+    width: 348px;
+}
+
+.posts{
+    width: 692px;
+}

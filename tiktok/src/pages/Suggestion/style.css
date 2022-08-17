@@ -1,0 +1,126 @@
+.divisor{
+    border: none;
+    width: 100%;
+    height: 1px;
+    background-color: var(--tertary);
+}
+
+.suggestion-container{
+    padding: 20px 0 26px 8px;
+    font-family: var(--fonte-primary);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.suggestion-top-toYou, .suggestion-top-follow, .suggestion-top-live{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 5px 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.suggestion-top svg{
+    font-size: 30px;
+}
+
+.suggestion-top-toYou:hover, .suggestion-top-follow:hover, .suggestion-top-live:hover{
+    background-color: var(--tertary);
+}
+
+.suggestion-logs{
+    margin: 30px 0;
+}
+
+.suggestion-logs p{
+    margin-bottom: 15px;
+    color: var(--secondary);
+    font-weight: normal;
+}
+
+.suggestion-button{
+    width: 100%;
+    padding: 14px 0;
+    border-radius: 4px;
+    border: 1px solid red;
+    background: none;
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.suggestion-button:hover{
+    background-color: #FFF3F5;
+}
+
+.suggestion-suggestion-top p{
+    color: var(--secondary);
+    margin: 14px 0 14px 0;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.suggestion-suggestions img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.suggestion-single{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.suggestion-single-texts p{
+    letter-spacing: 1.1px;
+}
+
+.suggestion-single-texts span{
+    color: var(--secondary);
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.suggestion-single-texts svg{
+    color: #20D5EC;
+}
+
+.suggestion-suggestions-bot p{
+    color: var(--primary);
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.discover-p{
+    font-size: 13px;
+    margin: 10px 0;
+    font-weight: normal;
+    color: var(--secondary);
+}
+
+.line1{
+    display: flex;
+    gap: 10px;
+}
+
+.sub-line1, .sub-line1-2{
+    cursor: pointer;
+    border: 1px solid var(--secondary);
+    border-radius: 30px;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+}
+
+.tags p{
+    color: var(--secondary);
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
