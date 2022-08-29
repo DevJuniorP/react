@@ -1,0 +1,29 @@
+.post-container{
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    width: 692px;
+    padding: 20px 0;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-user{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-user a{
+    margin-left: 70px;
+}
+
+.post-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
